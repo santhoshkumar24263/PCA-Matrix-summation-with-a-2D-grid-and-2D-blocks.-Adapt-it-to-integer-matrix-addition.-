@@ -1,18 +1,26 @@
 # PCA-Matrix-summation-with-a-2D-grid-and-2D-blocks.-Adapt-it-to-integer-matrix-addition.-
 
-## Aim:To implement Matrix summation with 2D grids and blocks.
+## Aim:
+```
+To implement Matrix summation with 2D grids and blocks.
+```
 
 ## Procedure:
-1.Initialize matrix sizes (nx and ny)
-2.Allocate memory on the host and initialize data
-3.Allocate memory on the device and transfer data from the host to the device 4.configure grid and block dimensions for the GPU kernel
-5.Launch the GPU kernel (sumMatrixOnGPU2D) to perform matrix addition 
-6.Copy the GPU results back to the host 
-7.Verify and compare the results between the host and GPU 
-8.Free allocated memory 
-9.Reset the GPU device
- program: 
- #include "../common/common.h"
+```
+1. Initialize matrix sizes (nx and ny)
+2. Allocate memory on the host and initialize data
+3. Allocate memory on the device and transfer data from the host to the device 4.configure grid and block dimensions for the GPU kernel
+5. Launch the GPU kernel (sumMatrixOnGPU2D) to perform matrix addition 
+6. Copy the GPU results back to the host 
+7. Verify and compare the results between the host and GPU 
+8. Free allocated memory 
+9. Reset the GPU device
+```
+## program:
+
+Float Matrix Addition
+```
+#include "../common/common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
 
@@ -182,7 +190,10 @@ int main(int argc, char **argv)
 
     return (0);
 }
+```
+
 Integer Matrix Addition
+```
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -353,7 +364,13 @@ int main(int argc, char **argv)
 
     return (0);
 }
-## Output:
-![273364965-4a3171a5-dcb7-4c4a-98e1-c663ab76b7a4](https://github.com/santhoshkumar24263/PCA-Matrix-summation-with-a-2D-grid-and-2D-blocks.-Adapt-it-to-integer-matrix-addition.-/assets/127171952/4af3414d-481b-45a3-ac9e-8fdce1fd977a)
 
-## Result:Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
+```
+## Output:
+
+![image](https://github.com/santhoshkumar24263/PCA-Matrix-summation-with-a-2D-grid-and-2D-blocks.-Adapt-it-to-integer-matrix-addition.-/assets/127171952/1b62ea98-baca-4ac9-aaeb-2fcacd0df4ac)
+
+
+## Result:
+
+Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
