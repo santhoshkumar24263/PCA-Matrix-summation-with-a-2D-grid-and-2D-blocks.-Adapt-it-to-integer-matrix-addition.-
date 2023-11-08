@@ -6,10 +6,7 @@ To implement Matrix summation with 2D grids and blocks.
 ```
 
 ## Procedure:
-```
-DEVELOPED BY : Santhoshkumar B
-REGISTER NO : 212221040146
-```
+
 ```
 1. Initialize matrix sizes (nx and ny)
 2. Allocate memory on the host and initialize data
@@ -21,6 +18,10 @@ REGISTER NO : 212221040146
 9. Reset the GPU device
 ```
 ## program:
+```
+DEVELOPED BY : Santhoshkumar B
+REGISTER NO : 212221040146
+```
 
 Float Matrix Addition
 ```
