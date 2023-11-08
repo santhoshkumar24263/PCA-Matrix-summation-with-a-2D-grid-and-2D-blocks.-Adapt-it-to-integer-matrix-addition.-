@@ -8,7 +8,7 @@ To implement Matrix summation with 2D grids and blocks.
 ## Procedure:
 ```
 DEVELOPED BY : Santhoshkumar B
-REGISTER NO : 212221040134
+REGISTER NO : 212221040146
 ```
 ```
 1. Initialize matrix sizes (nx and ny)
